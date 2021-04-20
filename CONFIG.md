@@ -1881,6 +1881,18 @@ This server accepts configuration via the `settings` key.
   
   Enables eval plugin
 
+- **`haskell.plugin.ghcide-completions.config.autoExtendOn`**: `boolean`
+
+  Default: `true`
+  
+  null
+
+- **`haskell.plugin.ghcide-completions.config.snippetsOn`**: `boolean`
+
+  Default: `true`
+  
+  null
+
 - **`haskell.plugin.ghcide-type-lenses.config.mode`**: `enum { "always", "exported", "diagnostics" }`
 
   Default: `true`
@@ -1970,6 +1982,18 @@ This server accepts configuration via the `settings` key.
   Default: `true`
   
   Enables wingman \(tactic\) plugin
+
+- **`haskell.plugin.tactics.config.hole_severity`**: `enum { 1, 2, 3, 4, vim.NIL }`
+
+  Default: `vim.NIL`
+  
+  The severity to use when showing hole diagnostics\.
+
+- **`haskell.plugin.tactics.config.timeout_duration`**: `integer`
+
+  Default: `2`
+  
+  null
 
 - **`haskell.releasesURL`**: `string`
 
